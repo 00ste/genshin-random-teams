@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.team {
+  display:grid;
+  grid-template-columns: repeat(4, auto);
+  gap: .3em;
+  width:fit-content;
+  margin: 0 auto;
+}
+
+.control-panel {
+  margin: 1em auto
+}
+
+.characters-list {
+  display:grid;
+  grid-template-columns: repeat(7, auto);
+  gap: .3em;
+}

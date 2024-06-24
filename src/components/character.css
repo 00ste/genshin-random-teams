@@ -1,0 +1,38 @@
+.character {
+    border-radius: 0.6em;
+    padding: .2em;
+    width: 10em;
+    height: 12em;
+}
+
+.character-name {
+    font-weight: bold;
+}
+
+.character-element {
+    font-size: small;
+    text-align:left;
+    margin: .8em .4em;
+}
+
+.character-weapon {
+    font-size: small;
+    text-align:left;
+    margin: .8em .4em;
+}
+
+.disabled {
+    background-color: silver;
+}
+
+.deselected {
+    background-color: beige;
+}
+
+.selected {
+    background-color: greenyellow;
+}
+
+.empty {
+    background-color: gray;
+}
