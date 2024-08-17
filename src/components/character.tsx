@@ -1,5 +1,4 @@
 import { CharacterID, CharacterState, charactersData } from "../common/characters-data"
-
 import './character.css'
 
 interface CharacterProps {
@@ -21,6 +20,7 @@ const Character: React.FC<CharacterProps> = (props) => {
     {
         return (
             <div className={`character ${props.state}`} onClick={props.clickAction}>
+                <img className="character-portrait" src={charactersData[props.character].portrait} alt={charactersData[props.character].name} />
                 <p className="character-name">{charactersData[props.character].name}</p>
                 <p className="character-element">{charactersData[props.character].element}</p>
                 <p className="character-weapon">{charactersData[props.character].weapon}</p>

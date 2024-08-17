@@ -1,3 +1,87 @@
+import portraits_aether from "../../public/characters-portraits/portraits-aether.png";
+import portraits_albedo from "../../public/characters-portraits/portraits-albedo.png";
+import portraits_alhaitham from "../../public/characters-portraits/portraits-alhaitham.png";
+import portraits_aloy from "../../public/characters-portraits/portraits-aloy.png";
+import portraits_amber from "../../public/characters-portraits/portraits-amber.png";
+import portraits_arataki_itto from "../../public/characters-portraits/portraits-arataki-itto.png";
+import portraits_arlecchino from "../../public/characters-portraits/portraits-arlecchino.png";
+import portraits_baizhu from "../../public/characters-portraits/portraits-baizhu.png";
+import portraits_barbara from "../../public/characters-portraits/portraits-barbara.png";
+import portraits_beidou from "../../public/characters-portraits/portraits-beidou.png";
+import portraits_bennett from "../../public/characters-portraits/portraits-bennett.png";
+import portraits_candace from "../../public/characters-portraits/portraits-candace.png";
+import portraits_charlotte from "../../public/characters-portraits/portraits-charlotte.png";
+import portraits_chevreuse from "../../public/characters-portraits/portraits-chevreuse.png";
+import portraits_chiori from "../../public/characters-portraits/portraits-chiori.png";
+import portraits_chongyun from "../../public/characters-portraits/portraits-chongyun.png";
+import portraits_clorinde from "../../public/characters-portraits/portraits-clorinde.png";
+import portraits_collei from "../../public/characters-portraits/portraits-collei.png";
+import portraits_cyno from "../../public/characters-portraits/portraits-cyno.png";
+import portraits_dehya from "../../public/characters-portraits/portraits-dehya.png";
+import portraits_diluc from "../../public/characters-portraits/portraits-diluc.png";
+import portraits_diona from "../../public/characters-portraits/portraits-diona.png";
+import portraits_dori from "../../public/characters-portraits/portraits-dori.png";
+import portraits_eula from "../../public/characters-portraits/portraits-eula.png";
+import portraits_faruzan from "../../public/characters-portraits/portraits-faruzan.png";
+import portraits_fischl from "../../public/characters-portraits/portraits-fischl.png";
+import portraits_freminet from "../../public/characters-portraits/portraits-freminet.png";
+import portraits_furina from "../../public/characters-portraits/portraits-furina.png";
+import portraits_gaming from "../../public/characters-portraits/portraits-gaming.png";
+import portraits_ganyu from "../../public/characters-portraits/portraits-ganyu.png";
+import portraits_gorou from "../../public/characters-portraits/portraits-gorou.png";
+import portraits_hu_tao from "../../public/characters-portraits/portraits-hu-tao.png";
+import portraits_jean from "../../public/characters-portraits/portraits-jean.png";
+import portraits_kaedehara_kazuha from "../../public/characters-portraits/portraits-kaedehara-kazuha.png";
+import portraits_kaeya from "../../public/characters-portraits/portraits-kaeya.png";
+import portraits_kamisato_ayaka from "../../public/characters-portraits/portraits-kamisato-ayaka.png";
+import portraits_kamisato_ayato from "../../public/characters-portraits/portraits-kamisato-ayato.png";
+import portraits_kaveh from "../../public/characters-portraits/portraits-kaveh.png";
+import portraits_keqing from "../../public/characters-portraits/portraits-keqing.png";
+import portraits_kirara from "../../public/characters-portraits/portraits-kirara.png";
+import portraits_klee from "../../public/characters-portraits/portraits-klee.png";
+import portraits_kujou_sara from "../../public/characters-portraits/portraits-kujou-sara.png";
+import portraits_kuki_shinobu from "../../public/characters-portraits/portraits-kuki-shinobu.png";
+import portraits_layla from "../../public/characters-portraits/portraits-layla.png";
+import portraits_lisa from "../../public/characters-portraits/portraits-lisa.png";
+import portraits_lynette from "../../public/characters-portraits/portraits-lynette.png";
+import portraits_lyney from "../../public/characters-portraits/portraits-lyney.png";
+import portraits_mika from "../../public/characters-portraits/portraits-mika.png";
+import portraits_mona from "../../public/characters-portraits/portraits-mona.png";
+import portraits_nahida from "../../public/characters-portraits/portraits-nahida.png";
+import portraits_navia from "../../public/characters-portraits/portraits-navia.png";
+import portraits_neuvillette from "../../public/characters-portraits/portraits-neuvillette.png";
+import portraits_nilou from "../../public/characters-portraits/portraits-nilou.png";
+import portraits_ningguang from "../../public/characters-portraits/portraits-ningguang.png";
+import portraits_noelle from "../../public/characters-portraits/portraits-noelle.png";
+import portraits_qiqi from "../../public/characters-portraits/portraits-qiqi.png";
+import portraits_raiden_shogun from "../../public/characters-portraits/portraits-raiden-shogun.png";
+import portraits_razor from "../../public/characters-portraits/portraits-razor.png";
+import portraits_rosaria from "../../public/characters-portraits/portraits-rosaria.png";
+import portraits_sangonomiya_kokomi from "../../public/characters-portraits/portraits-sangonomiya-kokomi.png";
+import portraits_sayu from "../../public/characters-portraits/portraits-sayu.png";
+import portraits_sethos from "../../public/characters-portraits/portraits-sethos.png";
+import portraits_shenhe from "../../public/characters-portraits/portraits-shenhe.png";
+import portraits_shikanoin_heizou from "../../public/characters-portraits/portraits-shikanoin-heizou.png";
+import portraits_sucrose from "../../public/characters-portraits/portraits-sucrose.png";
+import portraits_tartaglia from "../../public/characters-portraits/portraits-tartaglia.png";
+import portraits_thoma from "../../public/characters-portraits/portraits-thoma.png";
+import portraits_tighnari from "../../public/characters-portraits/portraits-tighnari.png";
+import portraits_venti from "../../public/characters-portraits/portraits-venti.png"
+import portraits_wanderer from "../../public/characters-portraits/portraits-wanderer.png";
+import portraits_wriothesley from "../../public/characters-portraits/portraits-wriothesley.png";
+import portraits_xiangling from "../../public/characters-portraits/portraits-xiangling.png";
+import portraits_xianyun from "../../public/characters-portraits/portraits-xianyun.png";
+import portraits_xiao from "../../public/characters-portraits/portraits-xiao.png";
+import portraits_xingqiu from "../../public/characters-portraits/portraits-xingqiu.png";
+import portraits_xinyan from "../../public/characters-portraits/portraits-xinyan.png";
+import portraits_yae_miko from "../../public/characters-portraits/portraits-yae-miko.png";
+import portraits_yanfei from "../../public/characters-portraits/portraits-yanfei.png";
+import portraits_yaoyao from "../../public/characters-portraits/portraits-yaoyao.png";
+import portraits_yelan from "../../public/characters-portraits/portraits-yelan.png";
+import portraits_yoimiya from "../../public/characters-portraits/portraits-yoimiya.png";
+import portraits_yun_jin from "../../public/characters-portraits/portraits-yun-jin.png";
+import portraits_zhongli from "../../public/characters-portraits/portraits-zhongli.png";
+
 export enum CharacterID {
     ALBEDO, ALHAITAM, ALOY, AMBER, ARATAKI_ITTO, ARLECCHINO, BAIZHU, BARBARA, BEIDOU, BENNETT,
     CANDACE, CHARLOTTE, CHEVREUSE, CHIORI, CHONGYUN, CLORINDE, COLLEI, CYNO, DEHYA, DILUC,
@@ -39,91 +123,92 @@ export interface CharacterDataEntry {
     name: string,
     element: Element,
     weapon: Weapon,
-    rarity: number
+    rarity: number,
+    portrait: string,
 }
 
 export const charactersData = [
-    {name: "Albedo", element: Element.GEO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Alhaitam", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Aloy", element: Element.CRYO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Amber", element: Element.PYRO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Arataki Itto", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 5},
-    {name: "Arlecchino", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Baizhu", element: Element.DENDRO, weapon: Weapon.CATALYST, rarity: 5},
-    {name: "Barbara", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Beidou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Bennett", element: Element.PYRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Candace", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Charlotte", element: Element.HYDRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Chevreuse", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Chiori", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Chongyun", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Clorinde", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Collei", element: Element.DENDRO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Cyno", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Dehya", element: Element.GEO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Diluc", element: Element.PYRO, weapon: Weapon.CLAYMORE, rarity: 5},
-    {name: "Diona", element: Element.CRYO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Dori", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Eula", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 5},
-    {name: "Furuzan", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Fischl", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Freminet", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Furina", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Gaming", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Ganyu", element: Element.CRYO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Gorou", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Hu Tao", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 5},
-    {name: "Jean", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Kaedehara Kazuha", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Kaeya", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Kamisato Ayaka", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Kamisato Ayato", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Kaveh", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Keqing", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Kirara", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Klee", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 5},
-    {name: "Kujou Sara", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Kuki Shinobu", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Layla", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Lisa", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Lynette", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Lyney", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Mika", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Mona", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 5},
-    {name: "Nahida", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Navia", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 5},
-    {name: "Neuvillette", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Nilou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Ningguang", element: Element.GEO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Noelle", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Qiqi", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Raiden Shogun", element: Element.ELECTRO, weapon: Weapon.POLEARM, rarity: 5},
-    {name: "Razor", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Rosaria", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Sangonomiya Kokomi", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 5},
-    {name: "Sayu", element: Element.ANEMO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Sethos", element: Element.GEO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Shenhe", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 5},
-    {name: "Shikanoin Heizou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Sucrose", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Tartaglia", element: Element.HYDRO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Thoma", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Tighnari", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Traveler", element: Element.GEO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Venti", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Wanderer", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Wriothesley", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4},
-    {name: "Xiangling", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Xianyun", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Xiao", element: Element.ANEMO, weapon: Weapon.POLEARM, rarity: 5},
-    {name: "Xinqgiu", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4},
-    {name: "Xinyan", element: Element.PYRO, weapon: Weapon.CLAYMORE, rarity: 4},
-    {name: "Yae Miko", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 5},
-    {name: "Yanfei", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Yaoyao", element: Element.DENDRO, weapon: Weapon.CATALYST, rarity: 4},
-    {name: "Yelan", element: Element.HYDRO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Yoimiya", element: Element.PYRO, weapon: Weapon.BOW, rarity: 5},
-    {name: "Yun Jin", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4},
-    {name: "Zhongli", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 5}
+    {name: "Albedo", element: Element.GEO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_albedo},
+    {name: "Alhaitam", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_alhaitham},
+    {name: "Aloy", element: Element.CRYO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_aloy},
+    {name: "Amber", element: Element.PYRO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_amber},
+    {name: "Arataki Itto", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 5, portrait: portraits_arataki_itto},
+    {name: "Arlecchino", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_arlecchino},
+    {name: "Baizhu", element: Element.DENDRO, weapon: Weapon.CATALYST, rarity: 5, portrait: portraits_baizhu},
+    {name: "Barbara", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_barbara},
+    {name: "Beidou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_beidou},
+    {name: "Bennett", element: Element.PYRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_bennett},
+    {name: "Candace", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_candace},
+    {name: "Charlotte", element: Element.HYDRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_charlotte},
+    {name: "Chevreuse", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_chevreuse},
+    {name: "Chiori", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_chiori},
+    {name: "Chongyun", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_chongyun},
+    {name: "Clorinde", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_clorinde},
+    {name: "Collei", element: Element.DENDRO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_collei},
+    {name: "Cyno", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_cyno},
+    {name: "Dehya", element: Element.GEO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_dehya},
+    {name: "Diluc", element: Element.PYRO, weapon: Weapon.CLAYMORE, rarity: 5, portrait: portraits_diluc},
+    {name: "Diona", element: Element.CRYO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_diona},
+    {name: "Dori", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_dori},
+    {name: "Eula", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 5, portrait: portraits_eula},
+    {name: "Faruzan", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_faruzan},
+    {name: "Fischl", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_fischl},
+    {name: "Freminet", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_freminet},
+    {name: "Furina", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_furina},
+    {name: "Gaming", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_gaming},
+    {name: "Ganyu", element: Element.CRYO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_ganyu},
+    {name: "Gorou", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_gorou},
+    {name: "Hu Tao", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 5, portrait: portraits_hu_tao},
+    {name: "Jean", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_jean},
+    {name: "Kaedehara Kazuha", element: Element.ANEMO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_kaedehara_kazuha},
+    {name: "Kaeya", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_kaeya},
+    {name: "Kamisato Ayaka", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_kamisato_ayaka},
+    {name: "Kamisato Ayato", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_kamisato_ayato},
+    {name: "Kaveh", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_kaveh},
+    {name: "Keqing", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_keqing},
+    {name: "Kirara", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_kirara},
+    {name: "Klee", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 5, portrait: portraits_klee},
+    {name: "Kujou Sara", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_kujou_sara},
+    {name: "Kuki Shinobu", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_kuki_shinobu},
+    {name: "Layla", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_layla},
+    {name: "Lisa", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_lisa},
+    {name: "Lynette", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_lynette},
+    {name: "Lyney", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_lyney},
+    {name: "Mika", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_mika},
+    {name: "Mona", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 5, portrait: portraits_mona},
+    {name: "Nahida", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_nahida},
+    {name: "Navia", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 5, portrait: portraits_navia},
+    {name: "Neuvillette", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_neuvillette},
+    {name: "Nilou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_nilou},
+    {name: "Ningguang", element: Element.GEO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_ningguang},
+    {name: "Noelle", element: Element.GEO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_noelle},
+    {name: "Qiqi", element: Element.CRYO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_qiqi},
+    {name: "Raiden Shogun", element: Element.ELECTRO, weapon: Weapon.POLEARM, rarity: 5, portrait: portraits_raiden_shogun},
+    {name: "Razor", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_razor},
+    {name: "Rosaria", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_rosaria},
+    {name: "Sangonomiya Kokomi", element: Element.HYDRO, weapon: Weapon.CATALYST, rarity: 5, portrait: portraits_sangonomiya_kokomi},
+    {name: "Sayu", element: Element.ANEMO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_sayu},
+    {name: "Sethos", element: Element.GEO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_sethos},
+    {name: "Shenhe", element: Element.CRYO, weapon: Weapon.POLEARM, rarity: 5, portrait: portraits_shenhe},
+    {name: "Shikanoin Heizou", element: Element.ELECTRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_shikanoin_heizou},
+    {name: "Sucrose", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_sucrose},
+    {name: "Tartaglia", element: Element.HYDRO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_tartaglia},
+    {name: "Thoma", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_thoma},
+    {name: "Tighnari", element: Element.ELECTRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_tighnari},
+    {name: "Traveler", element: Element.GEO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_aether},
+    {name: "Venti", element: Element.ANEMO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_venti},
+    {name: "Wanderer", element: Element.ANEMO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_wanderer},
+    {name: "Wriothesley", element: Element.ELECTRO, weapon: Weapon.BOW, rarity: 4, portrait: portraits_wriothesley},
+    {name: "Xiangling", element: Element.PYRO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_xiangling},
+    {name: "Xianyun", element: Element.CRYO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_xianyun},
+    {name: "Xiao", element: Element.ANEMO, weapon: Weapon.POLEARM, rarity: 5, portrait: portraits_xiao},
+    {name: "Xingqiu", element: Element.HYDRO, weapon: Weapon.SWORD, rarity: 4, portrait: portraits_xingqiu},
+    {name: "Xinyan", element: Element.PYRO, weapon: Weapon.CLAYMORE, rarity: 4, portrait: portraits_xinyan},
+    {name: "Yae Miko", element: Element.ELECTRO, weapon: Weapon.SWORD, rarity: 5, portrait: portraits_yae_miko},
+    {name: "Yanfei", element: Element.PYRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_yanfei},
+    {name: "Yaoyao", element: Element.DENDRO, weapon: Weapon.CATALYST, rarity: 4, portrait: portraits_yaoyao},
+    {name: "Yelan", element: Element.HYDRO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_yelan},
+    {name: "Yoimiya", element: Element.PYRO, weapon: Weapon.BOW, rarity: 5, portrait: portraits_yoimiya},
+    {name: "Yun Jin", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 4, portrait: portraits_yun_jin},
+    {name: "Zhongli", element: Element.GEO, weapon: Weapon.POLEARM, rarity: 5, portrait: portraits_zhongli}
 ]

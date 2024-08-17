@@ -2,7 +2,11 @@
     border-radius: 0.6em;
     padding: .2em;
     width: 10em;
-    height: 12em;
+    height: 18em;
+}
+
+.character-portrait {
+    width: 100%;
 }
 
 .character-name {
