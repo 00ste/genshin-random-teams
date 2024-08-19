@@ -1,13 +1,10 @@
 import { useState } from 'react'
 import { allCharacters, CharacterID, CharacterState } from "./common/characters-data"
 import Character from "./components/character"
+import { CharacterEntry } from "./common/definitions";
+import { generateCode, decodeCode } from './common/codes';
 
 import './App.css'
-
-interface CharacterEntry {
-   id: CharacterID,
-   state: CharacterState
-}
 
 function App() {
    const [characters, setCharacters] = useState(
@@ -20,21 +17,9 @@ function App() {
       [CharacterID.NONE, CharacterID.NONE, CharacterID.NONE, CharacterID.NONE]
    )
 
+   const [codeInput, setCodeInput] = useState("");
+
    function generateRandomTeam() {
-      // Pick 4 new characters for the team
-      /*
-      let newTeam: CharacterID[] = []
-      while (newTeam.length < 4) {
-         console.log("new team indexes:", newTeam)
-         const randomIndex = Math.floor(Math.random() * characters.length)
-         console.log("adding", randomIndex)
-         if ((characters[randomIndex].state != CharacterState.DISABLED) && (newTeam.indexOf(randomIndex) >= 0))
-            newTeam = [...newTeam, randomIndex]
-      }
-      */
-
-      //console.log("new team indexes:", newTeam)
-
       let randomCharacters: CharacterID[] = [];
       const enabledCharacters = characters.filter((x: CharacterEntry) => (x.state != CharacterState.DISABLED))
       while (randomCharacters.length < 4) {
@@ -56,6 +41,14 @@ function App() {
       setCharacters(newCharacters)
    }
 
+   function clearTeam() {
+      setTeam([CharacterID.NONE, CharacterID.NONE, CharacterID.NONE, CharacterID.NONE]);
+      setCharacters(characters.map(c => {
+         if (c.state == CharacterState.SELECTED) c.state = CharacterState.DESELECTED;
+         return c;
+      }));
+   }
+
    function clickCharacter(id: CharacterID) {
       const newCharacters = characters.map((x: CharacterEntry) => {
          if (x.id == id) {
@@ -66,6 +59,27 @@ function App() {
       })
 
       setCharacters(newCharacters)
+   }
+
+   function applyCode(code: string) {
+      console.log("Applying code", code);
+      // Decode the code
+      let newSelections = decodeCode(code);
+
+      if (newSelections.length < characters.length) newSelections = Array(characters.length).fill(true);
+
+      // Adjust the size by removing potential padding bits
+      newSelections = newSelections.slice(newSelections.length - characters.length, -1);
+
+      console.log("cleaned output:", newSelections);
+
+      clearTeam();
+
+      let newCharacters: CharacterEntry[] = [];
+      for (let i = 0; i < characters.length; i++) {
+         newCharacters.push(characters[i]);
+         newCharacters[i].state = newSelections[i] ? CharacterState.DESELECTED : CharacterState.DISABLED;
+      }
    }
 
    return (
@@ -83,7 +97,11 @@ function App() {
             }
          </div>
          <div className="control-panel">
-            <button id="randomize-button" onClick={generateRandomTeam}>Randomize!</button>   
+            <button id="randomize-button" onClick={generateRandomTeam}>Randomize!</button> 
+            <button id="clear-button" onClick={clearTeam}>Clear</button>
+            <button id="generate-code-button" onClick={() => decodeCode(generateCode(characters))}>Generate profile code</button>
+            <input type="text" id="insert-code-input" onChange={e => setCodeInput(e.target.value)}></input>
+            <button id="apply-code-button" onClick={() => applyCode(codeInput)}>Apply code</button>
          </div>         
          <div className="characters-list">
             {
